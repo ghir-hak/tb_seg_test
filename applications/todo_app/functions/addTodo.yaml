@@ -1,0 +1,15 @@
+id: QmfVAzSUGiHzzypVVewQHHm5jkxcHpmFMCbVY5AM16auWA
+description: ""
+tags: []
+source: libraries/todoapp_lib
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/todo
+domains:
+    - todo
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: addTodo

@@ -1,0 +1,15 @@
+id: QmZcee7muwHxcEAKj5VKy1nzzEvWSyTyAC4EvgWKY8jgbv
+description: ""
+tags: []
+source: libraries/todoapp_lib
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/todos
+domains:
+    - todo
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: listTodos

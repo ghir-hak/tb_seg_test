@@ -1,0 +1,15 @@
+id: QmdMptJLB1USX97xTZVutCWrGhCWA3BVobPUK8mZ7LaAeF
+description: ""
+tags: []
+source: libraries/todoapp_lib
+trigger:
+    type: https
+    method: DELETE
+    paths:
+        - /api/todo
+domains:
+    - todo
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: deleteTodo
