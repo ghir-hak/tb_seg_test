@@ -1,0 +1,15 @@
+id: QmasthMhTWTjQz1sTecjUiWw8f4eZYQtz8FPu8eMWbPwmh
+description: ""
+tags: []
+source: libraries/pastebinapp_lib
+trigger:
+    type: https
+    method: POST
+    paths:
+        - /api/upload
+domains:
+    - pastebin
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: upload

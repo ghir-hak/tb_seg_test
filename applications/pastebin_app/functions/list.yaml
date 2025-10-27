@@ -1,0 +1,15 @@
+id: QmeonBakwezkHbcNMLLaiBx9QpEDWR9h5b36bhUQmBc3dG
+description: ""
+tags: []
+source: libraries/pastebinapp_lib
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/list
+domains:
+    - pastebin
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: listFiles

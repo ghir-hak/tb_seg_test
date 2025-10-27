@@ -1,0 +1,15 @@
+id: QmaYioefYXbnebhUUSwaxMxr3vvtadWcNsPWF6c6Yo7o6m
+description: ""
+tags: []
+source: libraries/pastebinapp_lib
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/download
+domains:
+    - pastebin
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: download
