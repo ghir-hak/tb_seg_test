@@ -1,0 +1,15 @@
+id: QmQmqPRUVtmHVbFjWt9R8ZxeWAbrxBbDGHQhfLLeg5Uvne
+description: ""
+tags: []
+source: libraries/chatapp_lib
+trigger:
+    type: https
+    method: GET
+    paths:
+        - /api/getwebsocketurl
+domains:
+    - chat
+execution:
+    timeout: 10s
+    memory: 10MB
+    call: getsocketurl
