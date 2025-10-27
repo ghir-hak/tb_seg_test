@@ -1,0 +1,10 @@
+id: QmXrr2UDkmWEanbDXtLJTL9bMccz8maD9zBJ75iDoE8gp3
+description: ""
+tags: []
+match: pastebin
+useRegex: false
+access:
+    network: host
+object:
+    versioning: false
+    size: 100MB
