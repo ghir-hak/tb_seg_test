@@ -1,7 +1,7 @@
 id: Qmc14XkVCGrYLbaJYH6h5Bna9YVyPT6qnJvJp8BbM5Ah7B
 description: ""
 tags: []
-match: /todo
+match: /todo/list
 useRegex: false
 access:
     network: all
