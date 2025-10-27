@@ -1,0 +1,12 @@
+id: QmUUVj1u79UocCArSd2vdTZHWxBPspbBRGNhbTpyVr6grM
+description: ""
+tags: []
+domains:
+    - chat
+source:
+    paths:
+        - /
+    branch: main
+    github:
+        id: 1084257453
+        fullname: ghir-hak/tb_website_chat
