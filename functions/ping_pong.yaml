@@ -8,7 +8,7 @@ trigger:
     paths:
         - /ping
 domains:
-    - GeneratedDomain
+    - global
 execution:
     timeout: 10s
     memory: 10MB
