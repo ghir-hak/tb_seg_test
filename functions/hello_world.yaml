@@ -1,5 +1,5 @@
-id: Qmb4C3tGBZYxciYBiodKYEc5xvDPUTnMjm89Yty9oMA1zC
-description: Returns pong to a ping over http
+id: QmRit3mZ9Ah1LeTR1HQmGsByXX4RJkrfz87GeUwfP72t5u
+description: Returns hello world
 tags: []
 source: .
 trigger:
@@ -12,4 +12,4 @@ domains:
 execution:
     timeout: 10s
     memory: 10MB
-    call: ping
+    call: helloworld
